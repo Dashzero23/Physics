@@ -1,4 +1,4 @@
-class Intro extends Phaser.Scene {
+class intro extends Phaser.Scene {
     constructor() {
         super('intro')
     }
@@ -123,7 +123,7 @@ class level1 extends Phaser.Scene {
     }
 }
 
-class Summary1 extends Phaser.Scene {
+class summary1 extends Phaser.Scene {
     constructor() {
         super('Summary 1')
     }
@@ -267,7 +267,7 @@ class level2 extends Phaser.Scene {
     }
 }
 
-class Summary2 extends Phaser.Scene {
+class summary2 extends Phaser.Scene {
     constructor() {
         super('Summary 2')
     }
@@ -406,7 +406,7 @@ class level3 extends Phaser.Scene {
     }
 }
 
-class Summary3 extends Phaser.Scene {
+class summary3 extends Phaser.Scene {
     constructor() {
         super('Summary 3')
     }
@@ -434,7 +434,7 @@ const config = {
             debug: false
         }
     },
-    scene: [Intro, level1, level2, level3, Summary1, Summary2, Summary3],
+    scene: [intro, level1, level2, level3, summary1, summary2, summary3],
   };
   
   // Create the Phaser game instance
