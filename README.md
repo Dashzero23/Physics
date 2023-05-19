@@ -1,5 +1,5 @@
 # Physics
-- Link to play:
+- Link to play: https://dashzero23.github.io/Physics/
 Gameplay/Experience requirements:
 - Use continuous/discrete input: left-right movement/jumping
 - 3 physic based scenes: 3 levels
